@@ -39,7 +39,21 @@ layout: default
     </ul>
   </div>
   {% endif %}  
-  {{ content }}
+  <div class="left">
+    {% if page.date %}
+    <div class="item">
+      <strong>Date:</strong> {{page.date}}
+    </div>
+    {% endif %}
+    {% if page.collaborators %}
+    <div class="item">
+      <strong>Collaborators:</strong> {{page.collaborators}}
+    </div>
+    {% endif %}
+  </div>
+  <div class="right">
+    {{ content }}
+  </div>
 </article>
 
 {% if site.show_sharing_icons %}
