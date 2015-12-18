@@ -23,6 +23,22 @@ layout: default
 </div>
 
 <article class="post-content">
+
+  {% if page.slideshow %}
+  <div class="slideshow">
+    <ul class="slides">
+      {% for slides in page.slideshow %}
+      <li>
+        <img src="{{ slides.image_path | prepend: site.baseurl }}">
+        {% if slides.credits %}
+          <span class="slides-credits">{{slides.credits}}</span>
+        {% endif %}
+
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}  
   {{ content }}
 </article>
 
