@@ -6,6 +6,7 @@ summary:    remixed the works of Shakespeare
 categories: public space interventions
 dateFormat: Fall 2012
 collaborators: Ben Rubin
+role:       custom software design
 for:        The Public Theater
 slideshow:
     - image_path: /images/shakespeareMachine_1.jpg
