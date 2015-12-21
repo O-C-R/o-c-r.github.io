@@ -10,10 +10,12 @@ for:        The Public Theater
 slideshow:
     - image_path: /images/shakespeareMachine_1.jpg
       credits: image credit?
-    - image_path: /images/me.jpeg
-      credits: Not sure
-    - image_path: /images/me.jpeg
-      credits: Jer Thorp
+    - image_path: /images/shakespeareMachine_2.jpg
+      credits: image credit?
+    - image_path: /images/shakespeareMachine_3.jpg
+      credits: image credit?
+    - image_path: /images/shakespeareMachine_4.jpg
+      credits: image credit?
 ---
 
 Shakespeare Machine is a permanent artwork in the lobby of the Public Theater in New York City. It was commissioned by the Department of Cultural Affairs’ Percent-for-Art program and the Public Theater. It was opened to the public in October, 2012. 
