@@ -4,11 +4,11 @@ title:      A Sort of Joy (Thousands of Exhausted Things)
 date:       2015-03-30 12:31:19
 summary:    performed the MoMA collections database
 categories: public space interventions
-datePretty: Spring 2015
+dateFormat: Spring 2015
 collaborators: Elevator Repair Service
 for:        MoMA Artists Experiments
 slideshow:
-    - image_path: /images/me.jpeg
+    - image_path: /images/moma_1.jpg
       credits: Ben Rubin
     - image_path: /images/me.jpeg
       credits: Not sure
