@@ -5,6 +5,17 @@ layout: default
 <div class="home">
 
   <div class="posts">
+    <p>
+    We are a hybrid research group, working at the intersection of technology, culture and education. 
+    </p>
+    <p>
+    We build user-focused tools, public space interventions and forward-looking prototypes in the service of understanding and humanizing complex data systems.
+    </p>
+    <p>
+    Currently, we’re helping to count elephants in Africa, collect health data in the UK, and prototype the future of the newsroom.
+    </p>
+    <p>
+    In the past we have 
     {% for post in paginator.posts %}
       <a href="{{ post.url | prepend: site.baseurl }}" class="post  {{categories}}">
           {% if post.summary %}
@@ -14,6 +25,13 @@ layout: default
           {% endif %} 
       </a> |
     {% endfor %}
+    </p>
+    <p>
+    The Office for Creative Research is Jer Thorp, Ian Ardouin-Fumat, Noa Younse, Zarah Cabañas, Genevieve Hoffman, Kate Rath, and Sepand Ansari.
+  </p>
+  <p>
+  Get in touch: information@ocr.nyc
+  </p>
   </div>
 
 </div>

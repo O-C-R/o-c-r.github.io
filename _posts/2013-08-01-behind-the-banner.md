@@ -7,8 +7,18 @@ categories: data narrative
 dateFormat: Summer 2013
 for:        CM Summit/BatelleMedia
 slideshow:
-    - image_path: /images/behindTheBanner_1.jpg
-      credits: image credit??    
+    - image_path: /images/behindthebanner-01.png
+      credits: image credit??
+    - image_path: /images/behindthebanner-02.png
+      credits: image credit??
+    - image_path: /images/behindthebanner-03.png
+      credits: image credit??
+    - image_path: /images/behindthebanner-04.png
+      credits: image credit??
+    - image_path: /images/behindthebanner-05.png
+      credits: image credit??
+    - image_path: /images/behindthebanner-06.png
+      credits: image credit??   
 ---
 
 Experience Behind the Banner <a href="http://o-c-r.org/adcells/" target="_blank">here.</a>
