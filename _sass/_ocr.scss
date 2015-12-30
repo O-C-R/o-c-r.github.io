@@ -1,27 +1,100 @@
 .slides .slides-credits {
-    text-align: center;
+    text-align: left;
     display: block;
-    font-size: 0.75em;
-    font-family: arial;
+    font-size: 0.7em;
+    color: gray;
+    font-family: "Source Sans Pro", "Arial", sans-serif;
 }
 
 .slides img {
 	margin: 0 auto;
 }
 
+.slideshow ol, ul {
+    padding-left: 0rem;
+}
+
+.slick-slider {
+    margin-bottom: 40px;
+}
+.slick-prev, .slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    margin-top: -10px\9;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: white;
+    border: none;
+    outline: none;
+    background: white;
+}
+
+.slick-prev:before, .slick-next:before {
+    /*font-family: 'Arial';*/ font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: gray;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-dots li.slick-active button:before
+{
+    opacity: .5;
+    color: black;
+}
+
 .left {
     float: left;
-    width: 30%;
+    padding-right: 3%;
+    width: 24%;
 }
 .right {
     float: right;
-    width: 70%;
+    width: 73%;
 }
 .group:after {
     content:"";
     display: table;
     clear: both;
 }
+
+.site-header {
+    padding-top: 0rem;
+    padding-bottom: 1rem;
+}
+.px2 {
+    padding-left: 0rem;
+    padding-right: 1rem;
+}
+
+.site-header .site-title {
+    width: 150px;
+    height: 150px;
+    background-image: url("../apple-touch-icon.png");
+    background-size: contain;
+    position: fixed;
+}
+
+.mt2 {
+    margin-top: 0rem;
+}
+
+.item {
+    font-family: "Source Sans Pro", "Arial", sans-serif;
+    font-size: 0.8em;
+    line-height: 1.4em;
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -34,7 +107,30 @@ img {
     }
 }
 
+@media screen and (max-width: 1300px) {
+     .site-header .site-title {
+        position: relative;
+    }
+}
+
 p {
     color: #333;
     line-height: 1.8;
+}
+
+a {
+  color: $link-color;
+  /*background-image: none;
+  text-shadow: white 0px 0px 0px, white 0px 0px 0px;*/
+}
+
+a:hover,
+a:focus,
+a:active {
+  border: 0;
+  color: $link-hover-color;
+  text-decoration: none;
+  background-color: $bright-yellow;
+  background-image: none;
+  text-shadow: white 0px 0px 0px, white 0px 0px 0px;
 }

@@ -21,7 +21,7 @@ layout: default
     {{ minutes }} minute read
   {% endif %}
   </span> -->
-  
+
 </div>
 
 <article class="post-content">
@@ -47,9 +47,19 @@ layout: default
       <strong>Date:</strong> {{page.dateFormat}}
     </div>
     {% endif %}
+    {% if page.for %}
+    <div class="item">
+      <strong>For:</strong> {{page.for}}
+    </div>
+    {% endif %}
     {% if page.collaborators %}
     <div class="item">
       <strong>Collaborators:</strong> {{page.collaborators}}
+    </div>
+    {% endif %}
+    {% if page.role %}
+    <div class="item">
+      <strong>Role:</strong> {{page.role}}
     </div>
     {% endif %}
   </div>
