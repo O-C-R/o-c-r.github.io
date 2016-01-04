@@ -17,20 +17,20 @@ layout: default
     <p>
     In the past we have 
     {% for post in paginator.posts %}
-      <a href="{{ post.url | prepend: site.baseurl }}" class="post  {{categories}}">
+      <a href="{{ post.url | prepend: site.baseurl }}" class="post {{categories}}">
           {% if post.summary %}
             {{ post.summary }}
           {% else %}
             {{ post.excerpt }}
-          {% endif %} 
-      </a> |
+          {% endif %}
+      </a>,
     {% endfor %}
     </p>
     <p>
     The Office for Creative Research is Jer Thorp, Ian Ardouin-Fumat, Noa Younse, Zarah Cabañas, Genevieve Hoffman, Kate Rath, and Sepand Ansari.
   </p>
   <p>
-  Get in touch: information@ocr.nyc
+  Get in touch: <a href="mailto:information@ocr.nyc">information@ocr.nyc</a>
   </p>
   </div>
 
