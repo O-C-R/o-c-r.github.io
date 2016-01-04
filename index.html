@@ -17,13 +17,11 @@ layout: default
     <p>
     In the past we have 
     {% for post in paginator.posts %}
-      <a href="{{ post.url | prepend: site.baseurl }}" class="post {{categories}}">
-          {% if post.summary %}
-            {{ post.summary }}
-          {% else %}
-            {{ post.excerpt }}
-          {% endif %}
-      </a>,
+      {% if forloop.last %}
+        and <a href="{{ post.url | prepend: site.baseurl }}" class="post {{categories}}">{{ post.summary }}</a>.
+      {% else %}
+      <a href="{{ post.url | prepend: site.baseurl }}" class="post {{categories}}">{{ post.summary }}</a>,
+      {% endif %}
     {% endfor %}
     </p>
     <p>
