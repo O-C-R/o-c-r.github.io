@@ -47,6 +47,7 @@ function createFeed() {
   console.log('time to create feed', $);
 
   $("#feed").lifestream({
+    classname: "lifestream",
     feedloaded: feedcallback,
     limit: 30,
     list:[
