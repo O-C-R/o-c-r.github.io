@@ -139,3 +139,49 @@ a:active {
     width: 80%;
     margin: 0 auto;
 }
+
+/* feed stuff */
+
+#feed {
+    .lifestream li {
+        list-style: none;
+        padding: 20px 0px;
+        margin-left: 40px;
+        position: relative;
+    }
+    .lifestream li::before {
+        content: 'a';
+        text-indent: -999px;
+        font-size: 8px;
+        width: 30px;
+        height: 30px;
+        left: -40px;
+        position: absolute;
+        color: #00aced;
+    }
+
+    .lifestream-twitter {
+        border-bottom: 1px solid #00aced;
+
+        
+    }
+    .lifestream-twitter::before {
+        color: #00aced;
+        //background: url (twitter logo)
+        border: 1px solid #00aced;
+    }
+
+    .lifestream-tumblr {
+        border-bottom: 1px solid #0000FF;
+
+        
+    }
+    .lifestream-tumblr::before {
+        color: #00aced;
+        //background: url (twitter logo)
+        border: 1px solid #0000FF;
+    }
+
+
+
+}
