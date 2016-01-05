@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Staffing
+title: Work with us
 permalink: /staffing/
 ---
 

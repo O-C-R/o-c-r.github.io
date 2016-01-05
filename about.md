@@ -1,19 +1,20 @@
 ---
 layout: page
-title: About Pixyll
+title: The parts of our sum
 permalink: /about/
 ---
 
-This Jekyll theme was crafted with <3 by [John Otander](http://johnotander.com)
-([@4lpine](https://twitter.com/4lpine)).
+The Office for Creative Research was founded in 2013 by Mark Hansen, Ben Rubin and Jer Thorp. Drawing on previous collaborations like <a href="http://www.nytimes.com/video/arts/1194817116105/moveable-type.html" target="_blank">Moveable Type</a> and <a href="http://nytlabs.com/projects/cascade.html" target="_blank">Cascade</a>, the three co-founders decided to take the themes present in their art and data practices into a larger collaboration and company. Together, they pushed the limits of generative performance with pieces like <a href="{{ site.baseurl }}/performance/2013/09/01/arguendo/" target="_blank">Arguendo</a> and <a href="{{ site.baseurl }}/public/space/interventions/2015/03/30/a-sort-of-joy/" target="_blank">A Sort of Joy</a>, and built a company that approaches data novelly and ethically.
 
-Checkout the [Github repository](https://github.com/johnotander/pixyll) to download it,
-request a feature, report a bug, or contribute. It's free, and open source
-([MIT](http://opensource.org/licenses/MIT)).
+A statistician by training, Mark Hansen stepped away from his work with OCR to direct the David and Helen Gurley Brown Institute for Media Innovation at Columbia University. In late 2015 Ben Rubin, a media artist and former student at MIT's Media Lab, signed on as director of The Parsons Institute for Information Mapping.
 
-Thanks to the following:
+The Office for Creative Research is currently Jer Thorp, Ian Ardouin-Fumat, Noa Younse, Zarah Cabañas, Genevieve Hoffman, Kate Rath, and Sepand Ansari.
 
-* [BASSCSS](http://basscss.com)
-* [Jekyll](http://jekyllrb.com)
-* [Refills](http://refills.bourbon.io/)
-* [Type Scale](http://type-scale.com/)
+Esteemed emeritus include Ben Rubin, Mark Hansen and Ellery Royston.
+
+#### Jer Thorp, Co-Founder and Principal<br>
+Jer Thorp is an artist and educator from Vancouver, Canada, currently living in New York. Coming from a background in genetics, his digital art practice explores the many-folded boundaries between science and art. Recently, his work has been featured by The Guardian, Scientific American, The New Yorker, Popular Science, and the CBC. Thorp’s award-winning software-based work has been exhibited in Europe, Asia, North America, South America, and Australia and all over the web, including at the Museum of Modern Art in Manhattan.
+
+Jer has over a decade of teaching experience, in Langara College’s Electronic Media Design Program, at the Vancouver Film school, and as an artist-in-residence at the Emily Carr University of Art and Design. Most recently, he has presented at Carnegie Mellon’s School of Art, at The National Academies in Washington, and at IBM’s Center for Social Software in Cambridge.
+
+He was Data Artist in Residence at the New York Times for four years, and is an adjunct Professor in New York University’s ITP program. He is a member of the World Economic Forum’s Global Agenda Council for Design & Innovation.
