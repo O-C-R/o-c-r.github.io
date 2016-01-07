@@ -19,7 +19,7 @@ layout: default
     </p>
     <p>
     In the past we have 
-    {% for post in paginator.posts %}
+    {% for post in paginator.posts limit:30 %}
       {% if forloop.last %}
         and <a href="{{ post.url | prepend: site.baseurl }}" class="post {{categories}}">{{ post.summary }}</a>.
       {% else %}
