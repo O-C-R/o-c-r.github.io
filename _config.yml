@@ -7,6 +7,9 @@ baseurl:     "/site"
 url:         "http://ocr.nyc"
 date_format: "%b %-d, %Y"
 
+gems:
+  - jemoji
+
 # Google services
 google_analytics:
 google_verification:
