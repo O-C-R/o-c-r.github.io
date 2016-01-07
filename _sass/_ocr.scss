@@ -161,25 +161,27 @@ a:active {
     }
 
     .lifestream-twitter {
-        border-bottom: 1px solid #00aced;
+        border-bottom: 1px solid #555555;
 
         
     }
     .lifestream-twitter::before {
         color: #00aced;
-        //background: url (twitter logo)
-        border: 1px solid #00aced;
+        background: url("../images/twitter-icon.png");
+        background-size: contain;
+        /*border: 1px solid #555555;*/
     }
 
     .lifestream-tumblr {
-        border-bottom: 1px solid #0000FF;
+        border-bottom: 1px solid #555555;
 
         
     }
     .lifestream-tumblr::before {
         color: #00aced;
-        //background: url (twitter logo)
-        border: 1px solid #0000FF;
+        background: url("../images/tumblr-icon.png");
+        background-size: contain;
+        /*border: 1px solid #555555;*/
     }
 
 
