@@ -9,7 +9,18 @@ layout: default
 
 <div class="post-header mb2">
   <h1>{{ page.title }}</h1>
-  
+  {% if page.gerund %}
+    <h4>{{ page.gerund }}</h4>
+  {% endif %}
+
+  <div class="PageNavigation">
+  {% if page.previous.url %}
+    <a class="prev" href="{{ page.previous.url | prepend: site.baseurl }}">&laquo; Previous</a>
+  {% endif %}
+  {% if page.next.url %}
+    <a class="next" href="{{ page.next.url | prepend: site.baseurl }}">Next &raquo;</a>
+  {% endif %}
+</div>
   <!-- <span class="post-meta">{{ page.date | date: site.date_format }}</span><br>
   {% if page.update_date %}
     <span class="post-meta">Updated: {{ page.update_date | date: site.date_format }}</span><br>
