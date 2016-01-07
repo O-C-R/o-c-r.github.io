@@ -132,7 +132,7 @@ a:active {
   text-decoration: none;
   background-color: $ocr-red; /*$bright-yellow;*/
   background-image: none;
-  text-shadow: white 0px 0px 0px, white 0px 0px 0px;
+  text-shadow: none;
 }
 
 .home {
@@ -140,6 +140,27 @@ a:active {
     margin: 0 auto;
 }
 
+/* carousel btns */
+
+.slick-prev, .slick-next {
+    top: 48%;
+    width: 50%;
+    background: none;
+    height: 96%;
+    z-index: 10;
+}
+
+
+.slick-next {
+  left: 50%;
+  
+}
+
+.slick-prev {
+
+}
+
+.slick-prev:before, .slick-next:before { opacity: 0 !important; }
 /* feed stuff */
 
 #feed {
