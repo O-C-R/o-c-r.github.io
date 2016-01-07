@@ -2,19 +2,15 @@
 layout:     post
 title:      The Whole Brilliant Enterprise
 date:       2014-07-01 12:31:19
-summary:    visualized NASA’s effect on popular culture
+summary:    visualizing the history of space travel in NASA's own words
 dateFormat: Summer 2014
-categories: data narrative
+categories: data-narrative
 for:        Popular Science
 slideshow:
     - image_path: /images/wholeBrilliantEnterprise_1.jpg
-      credits: image credit??
     - image_path: /images/wholeBrilliantEnterprise_2.jpg
-      credits: image credit??
     - image_path: /images/wholeBrilliantEnterprise_3.jpg
-      credits: image credit??
     - image_path: /images/wholeBrilliantEnterprise_4.jpg
-      credits: image credit??
 ---
 
 <a href="http://www.nasa.gov/" target="_blank">The National Aeronautics and Space Administration</a> is a public agency. This means that while they’re not hurtling objects into space, measuring the earth in novel ways, developing clever technologies, or freeze-drying foods, they’re filing reports. Lots of reports. For example, every year since 1958, NASA has released ‘<a href="http://history.nasa.gov/timeline.html" target="_blank">Astronautics & Aeronautics Chronologies</a>’, which outline the agency’s aerospace activities in science, technology and policy. For the July issue of <a href="http://www.popsci.com/article/science/whole-brilliant-enterprise-nasa%E2%80%99s-first-50-years-one-interactive-graphic" target="_blank">Popular Science</a>, OCR made a 4-page, 3,460-word visualization which tells the story of NASA’s history in the agency’s own words.

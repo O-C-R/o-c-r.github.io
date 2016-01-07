@@ -2,15 +2,18 @@
 layout:     post
 title:      138 Years of Popular Science
 date:       2011-10-01 12:31:19
-summary:    explored the history of popular science
-categories: data narrative
+summary:    exploring the history of popular science
+categories: data-narrative
 dateFormat: Fall 2011
 for:        Popular Science
 slideshow:
     - image_path: /images/138yearsPopSci_1.jpg
       credits: image credit??
     - image_path: /images/138yearsPopSci_2.jpg
-      credits: image credit??  
+      credits: image credit??
+press:     
+    - link: <a href="http://radar.oreilly.com/2011/11/visualization-popular-science-archive.html" target="_blank">O'Reilly</a>
+    - link: <a href="http://io9.gizmodo.com/5853784/this-is-what-138-years-of-popular-science-look-like" target="_blank">i09</a>
 ---
 
 OCR was asked by the publishers of Popular Science magazine to produce a visualization piece that explored the archive of their publication. PopSci has a history that spans almost 140 years, so we knew there would be plenty of material to draw from. We ended up making a graphic that showed how different technical and cultural terms have come in and out of use in the magazine since its inception.
