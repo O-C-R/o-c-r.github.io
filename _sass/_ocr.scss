@@ -122,6 +122,7 @@ a {
   color: $link-color;
   /*background-image: none;
   text-shadow: white 0px 0px 0px, white 0px 0px 0px;*/
+  transition: all 0.1s ease-in;  
 }
 
 a:hover,
