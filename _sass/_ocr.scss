@@ -95,6 +95,18 @@
     line-height: 1.4em;
 }
 
+.left ol, ul {
+    padding-left: 0rem;
+    list-style: none;
+}
+
+.left li {
+    font-family: "Source Sans Pro", "Arial", sans-serif;
+    font-size: 0.8em;
+    line-height: 1.4em;
+    padding-left: 2rem;
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -138,6 +150,10 @@ a:active {
 .home {
     width: 80%;
     margin: 0 auto;
+}
+
+.contact-info {
+    padding-top: 50%;
 }
 
 /* feed stuff */
