@@ -134,6 +134,7 @@ a {
   color: $link-color;
   /*background-image: none;
   text-shadow: white 0px 0px 0px, white 0px 0px 0px;*/
+  transition: all 0.1s ease-in;  
 }
 
 a:hover,
@@ -144,7 +145,7 @@ a:active {
   text-decoration: none;
   background-color: $ocr-red; /*$bright-yellow;*/
   background-image: none;
-  text-shadow: white 0px 0px 0px, white 0px 0px 0px;
+  text-shadow: none;
 }
 
 .home {
@@ -155,6 +156,58 @@ a:active {
 .contact-info {
     padding-top: 50%;
 }
+
+.post-header h1, .post-header h4 {
+  /*display: inline-block;*/
+  padding-top: 0;
+}
+
+.PageNavigation {
+    /*
+    display: inline-block;
+    float: right;
+    margin-top: 3.3em;
+    font-size: 0.95em;
+    */
+
+    a:hover {
+      color: #000;
+    }
+
+    a {
+      font-size: 0.8em;
+      opacity: 0.9;
+      text-decoration: none;
+      border: 0;
+      background: none;
+      text-shadow: 0;
+    }
+    a:first-child {
+      margin-right: 20px;
+    }
+}
+
+/* carousel btns */
+
+.slick-prev, .slick-next {
+    top: 48%;
+    width: 50%;
+    background: none;
+    height: 96%;
+    z-index: 10;
+}
+
+
+.slick-next {
+  left: 50%;
+  
+}
+
+.slick-prev {
+
+}
+
+.slick-prev:before, .slick-next:before { opacity: 0 !important; }
 
 /* feed stuff */
 
