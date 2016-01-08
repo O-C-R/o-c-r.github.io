@@ -153,8 +153,29 @@ a:active {
     margin: 0 auto;
 }
 
+.date {
+    /*text-transform: uppercase;*/
+    padding-bottom: 20px;
+}
+.date p {
+    font-size: 1em;
+    /*color: #A9A9A9;*/
+    line-height: 1.4em;
+}
+
 .contact-info {
-    padding-top: 50%;
+    padding-top: 25%;
+/*    padding-left: 40px;
+*/    float: left;
+    margin: 0 auto;
+    width: 12%;
+}
+
+.measure {
+  margin: 0 auto;
+  /*max-width: $measure-width;*/
+  width: 88%;
+  float: left;
 }
 
 .post-header h1, .post-header h4 {
