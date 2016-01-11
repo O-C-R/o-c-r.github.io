@@ -195,6 +195,18 @@ a:active {
 /* feed stuff */
 
 #feed {
+
+    a {
+        background: none;
+    }
+
+    a:hover {
+        background: none;
+        color: #000;
+        text-decoration: underline;
+
+    }
+
     .lifestream li {
         list-style: none;
         padding: 20px 0px;
@@ -235,6 +247,18 @@ a:active {
         background-size: contain;
         /*border: 1px solid #555555;*/
     }
+
+    .lifestream-medium h3 {
+        font-weight: normal;
+        font-family: inherit;
+
+
+    }
+    .medium-feed-item img {
+        width: 100%;
+        margin: 10px 0;
+    }
+
 
 
 

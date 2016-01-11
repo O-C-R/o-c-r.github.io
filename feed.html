@@ -36,24 +36,42 @@ document.addEventListener('DOMContentLoaded', function() {
     }  
 
   
-  script.src = '../scripts/jquery.lifestream.min.js';
+  script.src = '../scripts/jquery.lifestream.js';
   document.getElementsByTagName("head")[0].appendChild(script);
 
 
 }, false);
 
 
+
 function createFeed() {
   console.log('time to create feed', $);
 
-  $("#feed").lifestream({
+  var $feed = $("#feed");
+
+  $feed.hide();
+
+
+  $feed.lifestream({
     classname: "lifestream",
-    feedloaded: feedcallback,
-    limit: 30,
+    feedloaded: function() {
+    
+      $feed.show();
+
+    },
+    limit: 40,
     list:[
       {
         service: "twitter",
         user: "the_o_c_r"
+      },
+      {
+        service: "medium",
+        user: "@The_O_C_R"
+      },
+      {
+        service: "medium",
+        user: "@blprnt"
       },
       {
         service: "tumblr",
@@ -61,10 +79,6 @@ function createFeed() {
       }
     ]
   });
-}
-
-function feedcallback() {
-  console.log('feed loaded');
 }
 
 </script>
