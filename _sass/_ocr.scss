@@ -127,14 +127,14 @@ img {
 
 p {
     color: #333;
-    line-height: 1.8;
+    line-height: 2.0;
 }
 
 a {
   color: $link-color;
   /*background-image: none;
   text-shadow: white 0px 0px 0px, white 0px 0px 0px;*/
-  transition: all 0.1s ease-in;  
+  transition: all 0.05s ease-in;  
 }
 
 a:hover,
@@ -143,14 +143,9 @@ a:active {
   border: 0;
   color: $link-hover-color;
   text-decoration: none;
-  background-color: $ocr-red; /*$bright-yellow;*/
+  background-color: $ocr-red-ian; /*$bright-yellow;*/
   background-image: none;
   text-shadow: none;
-}
-
-.home {
-    width: 80%;
-    margin: 0 auto;
 }
 
 .date {
@@ -163,19 +158,39 @@ a:active {
     line-height: 1.4em;
 }
 
+.home {
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+.posts-home {
+    margin: 0 auto;
+    /*float: right;*/
+    /*width: 86%;*/
+    margin-left: 200px;
+    overflow: auto;
+}
+
 .contact-info {
     padding-top: 25%;
 /*    padding-left: 40px;
-*/    float: left;
-    margin: 0 auto;
-    width: 12%;
+*/    /*float: left;*/
+    /*margin: 0 auto;*/
+    position: fixed;
+    clear: both;
+    width: 200px;
+    margin-right: -200px;
+    float: left;
+    overflow: hidden;
+    /*min-width: 150px;*/
 }
 
 .measure {
   margin: 0 auto;
   /*max-width: $measure-width;*/
-  width: 88%;
-  float: left;
+  /*width: 88%;*/
+  /*float: left;*/
 }
 
 .post-header h1, .post-header h4 {
@@ -234,7 +249,7 @@ a:active {
 
 #feed {
 
-    a {
+/*    a {
         background: none;
     }
 
@@ -243,7 +258,7 @@ a:active {
         color: #000;
         text-decoration: underline;
 
-    }
+    }*/
 
     .lifestream li {
         list-style: none;
@@ -263,9 +278,7 @@ a:active {
     }
 
     .lifestream-twitter {
-        border-bottom: 1px solid #555555;
-
-        
+        border-bottom: 1px solid #555555;  
     }
     .lifestream-twitter::before {
         color: #00aced;
@@ -275,9 +288,7 @@ a:active {
     }
 
     .lifestream-tumblr {
-        border-bottom: 1px solid #555555;
-
-        
+        border-bottom: 1px solid #555555; 
     }
     .lifestream-tumblr::before {
         color: #00aced;
@@ -286,11 +297,24 @@ a:active {
         /*border: 1px solid #555555;*/
     }
 
+    .lifestream-medium {
+        border-bottom: 1px solid #555555; 
+        padding-bottom: 0px;
+    }
+    .lifestream-medium::before {
+        color: #00aced;
+        background: url("../images/medium-icon.png");
+        background-size: contain;
+        /*border: 1px solid #555555;*/
+    }
     .lifestream-medium h3 {
         font-weight: normal;
         font-family: inherit;
-
-
+        font-size: 1em;
+        margin-top: 5px;
+    }
+    .lifestream-medium p {
+        line-height: 1.5;
     }
     .medium-feed-item img {
         width: 100%;
