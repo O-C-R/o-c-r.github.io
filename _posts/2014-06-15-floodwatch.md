@@ -2,16 +2,14 @@
 layout:     post
 title:      Floodwatch
 date:       2014-06-15 12:31:19
-summary:    reverse-engineered online ad targeting
-categories: user-focused tools
+summary:    empowering individuals to reverse engineer ad targeting
+categories: user-focused-tools
 dateFormat: Summer 2014
 collaborators: Ashkan Soltani
-for:        Ford Foundation
+for:        Ford Foundation, Data Transparency Lab
 slideshow:
     - image_path: /images/floodwatch_1.jpg
-      credits: image credit?
     - image_path: /images/floodwatch_2.jpg
-      credits: Not sure
 ---
 
 We spend hours a day online, and we see ads on every webpage we visit. But we don’t have any way of tracking the ads we’re being served — we don’t even know how many ads the average person sees in a given day.

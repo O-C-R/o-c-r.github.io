@@ -5,34 +5,51 @@ layout: default
 <div class="home">
 
   <div class="posts">
+    <div class="item date">
+      <p>Wednesday 7th
+        <br>January 2014
+        <br>Brooklyn
+        <br>NY
+        <br>
+      </p>
+      <p></p>
+    </div>
     <p>
-    <span class="greeting">Greetings</span>,
+      <span class="greeting">Greetings</span>,
     </p>
     <p>
-    We are a hybrid research group, working at the intersection of technology, culture and education. 
+      We are a hybrid research group, working at the intersection of technology, culture and education. 
     </p>
     <p>
-    We build user-focused tools, public space interventions and forward-looking prototypes in the service of understanding and humanizing complex data systems.
+      We build user-focused tools, public space interventions and forward-looking prototypes in the service of understanding and humanizing complex data systems.
     </p>
     <p>
-    Currently, we’re helping to count elephants in Africa, collect health data in the UK, and prototype the future of the newsroom.
+      Currently, we’re helping to count elephants in Africa, collect health data in the UK, and prototype the future of the newsroom.
     </p>
     <p>
-    In the past we have 
-    {% for post in paginator.posts limit:30 %}
-      {% if forloop.last %}
-        and <a href="{{ post.url | prepend: site.baseurl }}" class="post {{categories}}">{{ post.summary }}</a>.
-      {% else %}
-      <a href="{{ post.url | prepend: site.baseurl }}" class="post {{categories}}">{{ post.summary }}</a>,
-      {% endif %}
-    {% endfor %}
+      In the past you may have caught us 
+      {% for post in paginator.posts limit:30 %}
+        {% if forloop.last %}
+          and <a href="{{ post.url | prepend: site.baseurl }}" class="post {{categories}}">{{ post.summary }}</a>.
+        {% else %}
+        <a href="{{ post.url | prepend: site.baseurl }}" class="post {{categories}}">{{ post.summary }}</a>,
+        {% endif %}
+      {% endfor %}
     </p>
     <p>
-    The Office for Creative Research is Jer Thorp, Ian Ardouin-Fumat, Noa Younse, Zarah Cabañas, Genevieve Hoffman, Kate Rath, and Sepand Ansari.
-  </p>
-  <p>
-  Get in touch: <a href="mailto:information@ocr.nyc">information@ocr.nyc</a>
-  </p>
+      The Office for Creative Research is Jer Thorp, Ian Ardouin-Fumat, Noa Younse, Zarah Cabañas, Genevieve Hoffman, Kate Rath, and Sepand Ansari.
+    </p>
+    <p>
+      We are also good at <a href="{{ site.baseurl }}/contact/">answering e-mails</a>, <a href="{{ site.baseurl }}/activity/">posting things on the internet</a>, and <a href="{{ site.baseurl }}/about/">hiring exceptional people</a>.
+    </p>
+    <p>
+      Get in touch with any questions, ideas or possible conspiracies.
+    </p>
+    <p>
+    Warmly,
+    <br>
+    The Office for Creative Research
+    </p>
   </div>
 
 </div>

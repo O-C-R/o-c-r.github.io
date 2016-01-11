@@ -2,20 +2,20 @@
 layout:     post
 title:      Into the Okavango
 date:       2013-09-01 12:31:19
-summary:    tracked wildlife in one of the world’s most biodiverse regions
-categories: conservation and science
-dateFormat: Fall 2013, Summer 2014, Summer 2015
+summary:    staging a live data expedition through one of Africa's most biodiverse wilderness areas
+categories: conservation-and-science
+dateFormat: Fall 2013, Summer 2014, Summer 2015, Spring 2016
 collaborators: Dr. Steve Boyes, The Wild Bird Trust
-for:        conservation
+for:        National Geographic
 slideshow:
     - image_path: /images/okavango_2.jpg
-      credits: image credit?
     - image_path: /images/okavango_1.jpg
-      credits: Not sure
+press:
+    - link: <a href="http://www.theguardian.com/environment/radical-conservation/2015/may/28/expedition-source-okavango-delta" target="_blank">The Guardian</a>
 ---
 
-A live data expedition into the Okavango Delta: <a href="http://intotheokavango" target="_blank">http://intotheokavango.org</a>
-Expedition led by Steve Boyes of The Wild Bird Trust.
+A live data expedition into the Okavango Delta. Visit the website <a href="http://intotheokavango" target="_blank">here</a>.
+Expedition led by Steve Boyes of <a href="http://www.wildbirdtrust.com/" target="_blank">The Wild Bird Trust</a>.
 
 Into the Okavango displays data which was uploaded daily, via satellite, by the expedition team in the Okavango Delta. Data is also available through a public API, allowing anyone to re-mix, analyze, or visualize the collected information. The software allows viewers to virtually experience one of the last remaining areas of true wilderness, normally inaccessible to the average person.
 

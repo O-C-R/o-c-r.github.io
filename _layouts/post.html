@@ -18,8 +18,8 @@ layout: default
   </div>
    
   <h1>{{ page.title }}</h1>
-  {% if page.gerund %}
-    <h4>{{ page.gerund }}</h4>
+  {% if page.summary %}
+    <h4>{{ page.summary }}</h4>
   {% endif %}
 
   <!-- <span class="post-meta">{{ page.date | date: site.date_format }}</span><br>
@@ -74,6 +74,18 @@ layout: default
       <strong>Role:</strong> {{page.role}}
     </div>
     {% endif %}
+
+    {% if page.press %}
+      <div class="item">
+        <strong>Press:</strong>
+        <ul class="press-links">
+        {% for p in page.press %}
+          <li>{{p.link}}</li>
+        {% endfor %}
+        </ul>
+      </div>
+    {% endif %}
+
   </div>
   <div class="right">
     {{ content }}

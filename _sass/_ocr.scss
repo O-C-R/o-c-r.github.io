@@ -95,6 +95,18 @@
     line-height: 1.4em;
 }
 
+.left ol, ul {
+    padding-left: 0rem;
+    list-style: none;
+}
+
+.left li {
+    font-family: "Source Sans Pro", "Arial", sans-serif;
+    font-size: 0.8em;
+    line-height: 1.4em;
+    padding-left: 2rem;
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -139,6 +151,31 @@ a:active {
 .home {
     width: 80%;
     margin: 0 auto;
+}
+
+.date {
+    /*text-transform: uppercase;*/
+    padding-bottom: 20px;
+}
+.date p {
+    font-size: 1em;
+    /*color: #A9A9A9;*/
+    line-height: 1.4em;
+}
+
+.contact-info {
+    padding-top: 25%;
+/*    padding-left: 40px;
+*/    float: left;
+    margin: 0 auto;
+    width: 12%;
+}
+
+.measure {
+  margin: 0 auto;
+  /*max-width: $measure-width;*/
+  width: 88%;
+  float: left;
 }
 
 .post-header h1, .post-header h4 {
@@ -192,6 +229,7 @@ a:active {
 }
 
 .slick-prev:before, .slick-next:before { opacity: 0 !important; }
+
 /* feed stuff */
 
 #feed {
