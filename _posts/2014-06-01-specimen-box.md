@@ -21,3 +21,9 @@ You might not personally be in the business of identity theft, spam delivery, or
 Microsoft’s Digital Crimes Unit has been tracking and neutralizing these threats for several years. In January 2014, DCU asked The Office for Creative Research to explore novel ways to visualize botnet activity. The result is Specimen Box, a prototype exploratory tool that allows DCU’s investigators to examine the unique profiles of various botnets, focusing on the geographic and time-based communication patterns of millions of infected machines.
 
 Specimen Box enables investigators to study a botnet the way a naturalist might examine a specimen collected in the wild: What are its unique characteristics? How does it behave? How does it propagate itself? How is it adapting to a changing environment?
+
+<!--
+embed size for when video is in slideshow
+ <iframe src="https://player.vimeo.com/video/100818432" width="960" height="540" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
+
+<iframe src="https://player.vimeo.com/video/100818432" width="672" height="378" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
