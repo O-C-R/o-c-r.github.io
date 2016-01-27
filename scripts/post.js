@@ -45,6 +45,20 @@ $('.year').text(year);
 var $side = $('.contact-info.item:first');
 var previousScroll = 0;
 
+// var words = ["exploring","breaking down", "explaining", "visualizing", "publishing", "performing", "mapping",
+//        "investigating", "empowering", "giving voice", "mapping", "staging", "augmenting", "showing",
+//        "remixing","imagining","projecting","analyzing","designing"];
+// var colors = ["#FF9900", "#FF99FF", "#00FFFF"];
+// for (var i = 0; i < words.length; i++) {
+//   $('.post').each(function () {
+//     this.outerHTML = this.outerHTML.split(words[i]).join('<span class="gerund">' + words[i] + '</span>');
+//     $(this).on('mouseover', function() {
+//       $(this).css("background-color", '#ef4518');
+//       $(this).css("color", "#FFFFFF");
+//     });
+//   });
+// }
+
 $(window).resize(function() {
   if($(window).width() > 1280) {
     $side.css("position","fixed");
@@ -80,23 +94,20 @@ $(window).scroll(function () {
     $side.css("padding-top", "10px");
     $side.css("position","relative");
   }
+
+  // var scroll = $(window).scrollTop();
+  // var i = 0;
+  // $('.gerund').each(function () {
+  //   var position = $(this).position();
+  //   var p = (scroll - position.top);
+  //   if (p > -300 ) {
+  //     $(this).css("background-color", colors[i % colors.length]);
+  //     $(this).css("color", "#FFFFFF");
+  //   } 
+  //   if(p > -60 || p < -(window.innerHeight - 100)) {
+  //     $(this).css("background-color", "transparent");
+  //     $(this).css("color", "#000000");
+  //   }   
+  //   i++;
+  // });
 });
-
-// $( window ).scroll(function() {
-//   var window_offset = $side.offset().top + $(window).scrollTop();
-//   console.log(window_offset);
-//   //$side.css("padding-top": "320px");
-//   //console.log(p.offset().top + p.height());
-//   if(window_offset >= 165 ) {
-//     $side.css("position","fixed");
-//     $side.css("padding-top", "150px");
-//   } else {
-//     $side.css("position","relative");
-//     $side.css("padding-top", "320px");
-//   }
-
-//   if (window_offset <= 330 ) {
-//     $side.css("position","relative");
-//     $side.css("padding-top", "320px");
-//   }
-// });

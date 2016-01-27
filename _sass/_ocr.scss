@@ -137,9 +137,20 @@ a:active {
   border: 0;
   color: $link-hover-color;
   text-decoration: none;
-  background-color: $ocr-red-ian; /*$bright-yellow;*/
+  background-color: $ocr-red; /*$bright-yellow;*/
   background-image: none;
   text-shadow: none;
+}
+
+footer {
+  background-color: white;
+  background: url("../images/texturered.png");
+  border-top: $footer-border-top;
+  color: $footer-color;
+  font-size: $footer-font-size;
+  font-weight: $footer-font-weight;
+  padding: $footer-padding;
+  text-align: center;
 }
 
 .date {
