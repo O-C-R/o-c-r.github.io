@@ -342,6 +342,11 @@ a:active {
         width: auto;
     }
 
+    .site-header .site-title {
+        position: relative;
+        float: left;
+    }
+
     .posts-home {
         padding-right: 4%;
         padding-top: 80px;
@@ -351,6 +356,7 @@ a:active {
 @media screen and (min-width: 480px) and (max-width: 1024px) {
     .site-header .site-title {
         position: relative;
+        float: left;
     }
 
     .posts-home {
