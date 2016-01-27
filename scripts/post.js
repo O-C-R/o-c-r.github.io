@@ -41,3 +41,62 @@ $('.weekday').text(days[weekday]);
 $('.date-ordinal').text(dateNum+nth(dateNum));
 $('.month').text(month);
 $('.year').text(year);
+
+var $side = $('.contact-info.item:first');
+var previousScroll = 0;
+
+$(window).resize(function() {
+  if($(window).width() > 1280) {
+    $side.css("position","fixed");
+    $side.css("padding-top", "318px");
+  } else {
+    $side.css("padding-top", "10px");
+    $side.css("position","relative");
+  }
+});
+    
+$(window).scroll(function () {
+  if($(window).width() > 1280) {
+    var currentScroll = $(this).scrollTop();
+    var window_offset = $side.offset().top + $(window).scrollTop();
+    console.log(window_offset);
+    if (currentScroll > previousScroll){
+       console.log('down');
+
+       if( window_offset >= 165 ) {
+          $side.css("position","fixed");
+          $side.css("padding-top", "148px");
+       }
+    }
+    else {
+      console.log('up');
+        if( window_offset <= 330 ) {
+          $side.css("position","relative");
+          $side.css("padding-top", "318px");        
+        }
+    }
+    previousScroll = currentScroll;
+  } else {
+    $side.css("padding-top", "10px");
+    $side.css("position","relative");
+  }
+});
+
+// $( window ).scroll(function() {
+//   var window_offset = $side.offset().top + $(window).scrollTop();
+//   console.log(window_offset);
+//   //$side.css("padding-top": "320px");
+//   //console.log(p.offset().top + p.height());
+//   if(window_offset >= 165 ) {
+//     $side.css("position","fixed");
+//     $side.css("padding-top", "150px");
+//   } else {
+//     $side.css("position","relative");
+//     $side.css("padding-top", "320px");
+//   }
+
+//   if (window_offset <= 330 ) {
+//     $side.css("position","relative");
+//     $side.css("padding-top", "320px");
+//   }
+// });

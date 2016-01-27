@@ -170,12 +170,13 @@ a:active {
 
 .contact-info {
     padding-top: 320px;
-    padding-left: 20px;
+    padding-left: 15px;
     /*float: left;*/
     /*margin: 0 auto;*/
-    position: fixed;
+    position: relative;
     clear: both;
     width: 200px;
+    /*height: 350px;*/
     margin-right: -200px;
     float: left;
     overflow: hidden;
@@ -212,7 +213,10 @@ a:active {
 .PageNavigation {
     
     /*display: inline-block;*/
-    float: right;
+    /*float: right;*/
+    top:0;
+    right:10px;
+    position:fixed;
     text-align: right;
     /*margin-top: 3.3em;*/
     margin-left: 15px;
@@ -363,6 +367,10 @@ a:active {
     .postmainarea {
         padding-left: 0px;
     }
+
+    .PageNavigation {
+        position: absolute;
+    }
 }
 @media screen and (min-width: 480px) and (max-width: 1024px) {
     .site-header .site-title {
@@ -388,9 +396,17 @@ a:active {
     .postmainarea {
         padding-left: 0px;
     }
+
+    .PageNavigation {
+        position: absolute;
+    }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1400px) {
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+    .PageNavigation {
+        position: absolute;
+    }
+
     .site-header .site-title {
         position: relative;
     }
@@ -405,6 +421,20 @@ a:active {
         padding-top: 10px;
         position: relative;
     }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1400px) {
+
+/*    .posts-home {
+        padding-right: 30%;
+        padding-top: 80px;
+        margin-left: 20px;
+    }
+
+    .contact-info {
+        padding-top: 10px;
+        position: relative;
+    }*/
 
     .postmainarea {
         padding-left: 0px;
