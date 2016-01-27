@@ -26,4 +26,4 @@ Specimen Box enables investigators to study a botnet the way a naturalist might 
 embed size for when video is in slideshow
  <iframe src="https://player.vimeo.com/video/100818432" width="960" height="540" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
 
-<iframe src="https://player.vimeo.com/video/100818432" width="672" height="378" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/100818432" width="658" height="370" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>

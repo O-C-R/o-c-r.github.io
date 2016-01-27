@@ -28,4 +28,4 @@ A Sort of Joy (Thousands of Exhausted Things) is a performance of the Museum of 
 
 This project is part of MoMA’s Artists Experiment, an annual initiative in the Department of Education that brings together contemporary artists in dialogue with MoMA educators to conceptualize ideas for developing innovative and experimental public interactions, and is made possible by Paula and Jim Crown.
 
-<iframe src="https://player.vimeo.com/video/153156395" width="672" height="378" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/153156395" width="658" height="370" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>

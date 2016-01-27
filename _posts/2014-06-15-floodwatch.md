@@ -22,4 +22,4 @@ We want to take back control over our data and fight against surveillance advert
 
 We want to empower everyday users with at least as much information as the advertisers have about them, and put choice back in your hands.
 
-<iframe src="https://player.vimeo.com/video/153158292" width="672" height="378" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/153158292" width="658" height="370" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>

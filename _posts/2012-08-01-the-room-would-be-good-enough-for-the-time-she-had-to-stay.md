@@ -16,4 +16,4 @@ The room would be good enough for the time she had to stay is a dynamic data por
 
 Commissioned by the <a href="https://www.vanartgallery.bc.ca/" target="_blank">Vancouver Art Gallery</a> for the <a href="http://projects.vanartgallery.bc.ca/publications/Hotel/exhibition-page/" target="_blank">Grand Hotel exhibition</a>, an exhibition that explores the evolution of the hotel from a utilitarian structure to a cultural institution.
 
-<iframe src="https://player.vimeo.com/video/153159316" width="672" height="378" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/153159316" width="658" height="370" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
