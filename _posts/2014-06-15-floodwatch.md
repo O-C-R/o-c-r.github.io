@@ -21,3 +21,5 @@ We want to take back control over our data and fight against surveillance advert
 <a href="https://floodwatch.o-c-r.org" target="_blank">Floodwatch</a> is a Chrome extension that tracks the ads you see as you browse the internet. It offers tools to help you understand both the volume and the types of ads you’re being served during the course of normal browsing, with the goal of increasing awareness of how advertisers track your browsing behavior, build their version of your online identity, and target their ads to you as an individual. We want to assemble the largest amount of advertising data we can — and then not give it to the advertisers.
 
 We want to empower everyday users with at least as much information as the advertisers have about them, and put choice back in your hands.
+
+<iframe src="https://player.vimeo.com/video/153158292" width="672" height="378" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
