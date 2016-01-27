@@ -3,7 +3,7 @@ title:       The Office for Creative Research
 email:       information@o-c-r.org
 author:      The Office for Creative Research
 description: "The Office for Creative Research is a multidisciplinary research group exploring new modes of engagement with data, through unique practices that borrow from both the arts and sciences. OCR clients are research partners, helping to pose, refine and ultimately solve difficult problems with data."
-baseurl:     "/site"
+baseurl:     ""
 url:         "/"
 date_format: "%b %-d, %Y"
 
