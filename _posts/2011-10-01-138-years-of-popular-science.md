@@ -8,9 +8,7 @@ dateFormat: Fall 2011
 for:        Popular Science
 slideshow:
     - image_path: /images/138yearsPopSci_1.jpg
-      credits: image credit??
     - image_path: /images/138yearsPopSci_2.jpg
-      credits: image credit??
 press:     
     - link: <a href="http://radar.oreilly.com/2011/11/visualization-popular-science-archive.html" target="_blank">O'Reilly</a>
     - link: <a href="http://io9.gizmodo.com/5853784/this-is-what-138-years-of-popular-science-look-like" target="_blank">i09</a>
