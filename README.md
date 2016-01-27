@@ -1,3 +1,19 @@
+# OCR Jekyll Website
+
+## Run locally:
+* clone the repo
+* inside repo directory run `bundle install` (it requires ruby and bundler(
+* run `jekyll serve --watch`
+
+## Pushing to Webfaction server:
+### setup
+* add webfaction as remote git repo `git remote add webfaction blprnt@blprnt.webfactional.com:/home/blprnt/git-repos/my-jekyll-blog.git`
+
+### push
+* git push webfaction master (pwd InfiniteH4llway)
+
+### Old info from pixyll:
+
 # Pixyll
 
 [pixyll.com](http://www.pixyll.com)
