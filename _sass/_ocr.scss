@@ -86,6 +86,7 @@
     width: 150px;
     height: 150px;
     background-image: url("../apple-touch-icon.png");
+    background-repeat: no-repeat;
     background-size: contain;
     position: fixed;
 }
@@ -116,24 +117,6 @@
 img {
     max-width: 100%;
     height: auto;
-}
-@media screen and (max-width: 480px) {
-    .left, 
-    .right {
-        float: none;
-        width: auto;
-    }
-}
-
-@media screen and (max-width: 1330px) {
-     .site-header .site-title {
-        position: relative;
-    }
-
-    .posts-home {
-        padding-right: 10%;
-        padding-top: 0px;
-    }
 }
 
 p {
@@ -179,16 +162,16 @@ a:active {
     margin: 0 auto;
     /*float: right;*/
     /*width: 86%;*/
-    margin-left: 200px;
     padding-right: 30%;
+    margin-left: 200px;
     padding-top: 125px;
     overflow: auto;
 }
 
 .contact-info {
     padding-top: 25%;
-/*    padding-left: 40px;
-*/    /*float: left;*/
+    padding-left: 20px;
+    /*float: left;*/
     /*margin: 0 auto;*/
     position: fixed;
     clear: both;
@@ -351,3 +334,51 @@ a:active {
         margin: 10px 0;
     }
 }
+
+@media screen and (max-width: 480px) {
+    .left, 
+    .right {
+        float: none;
+        width: auto;
+    }
+
+    .posts-home {
+        padding-right: 4%;
+        padding-top: 80px;
+        margin-left: 20px;
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 1024px) {
+    .site-header .site-title {
+        position: relative;
+    }
+
+    .posts-home {
+        padding-right: 10%;
+        padding-top: 80px;
+        margin-left: 20px;
+    }
+
+    .contact-info {
+        padding-top: 10px;
+        position: relative;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1330px) {
+    .site-header .site-title {
+        position: relative;
+    }
+
+    .posts-home {
+        padding-right: 20%;
+        padding-top: 80px;
+        margin-left: 20px;
+    }
+}
+
+/*@media screen and (max-width: 1920px) {
+    .posts-home {
+        padding-right: 30%;
+    }
+}*/
