@@ -45,19 +45,20 @@ $('.year').text(year);
 var $side = $('.contact-info.item:first');
 var previousScroll = 0;
 
-// var words = ["exploring","breaking down", "explaining", "visualizing", "publishing", "performing", "mapping",
-//        "investigating", "empowering", "giving voice", "mapping", "staging", "augmenting", "showing",
-//        "remixing","imagining","projecting","analyzing","designing"];
-// var colors = ["#FF9900", "#FF99FF", "#00FFFF"];
-// for (var i = 0; i < words.length; i++) {
-//   $('.post').each(function () {
-//     this.outerHTML = this.outerHTML.split(words[i]).join('<span class="gerund">' + words[i] + '</span>');
-//     $(this).on('mouseover', function() {
-//       $(this).css("background-color", '#ef4518');
-//       $(this).css("color", "#FFFFFF");
-//     });
-//   });
-// }
+var words = ["exploring","breaking down", "explaining", "visualizing", "publishing", "performing", "mapping",
+       "investigating", "empowering", "giving voice", "mapping", "staging", "augmenting", "showing",
+       "remixing","imagining","projecting","analyzing","designing"];
+var colors = ["#FF9900", "#FF99FF", "#00FFFF"];
+
+for (var i = 0; i < words.length; i++) {
+  $('.posts-home .post').each(function () {
+    this.outerHTML = this.outerHTML.split(words[i]).join('<span class="gerund">' + words[i] + '</span>');
+    $(this).on('mouseover', function() {
+      $(this).css("background-color", '#ef4518');
+      $(this).css("color", "#FFFFFF");
+    });
+  });
+}
 
 $(window).resize(function() {
   if($(window).width() > 1280) {
@@ -74,17 +75,22 @@ $(window).scroll(function () {
     var currentScroll = $(this).scrollTop();
     var window_offset = $side.offset().top + $(window).scrollTop();
     console.log(window_offset);
+
     if (currentScroll > previousScroll){
-       console.log('down');
+       
 
        if( window_offset >= 165 ) {
+          console.log('down');
+          console.log($side);
           $side.css("position","fixed");
           $side.css("padding-top", "148px");
        }
     }
     else {
-      console.log('up');
+      
         if( window_offset <= 330 ) {
+          console.log('up');
+          console.log($side);
           $side.css("position","relative");
           $side.css("padding-top", "318px");        
         }
@@ -95,19 +101,19 @@ $(window).scroll(function () {
     $side.css("position","relative");
   }
 
-  // var scroll = $(window).scrollTop();
-  // var i = 0;
-  // $('.gerund').each(function () {
-  //   var position = $(this).position();
-  //   var p = (scroll - position.top);
-  //   if (p > -300 ) {
-  //     $(this).css("background-color", colors[i % colors.length]);
-  //     $(this).css("color", "#FFFFFF");
-  //   } 
-  //   if(p > -60 || p < -(window.innerHeight - 100)) {
-  //     $(this).css("background-color", "transparent");
-  //     $(this).css("color", "#000000");
-  //   }   
-  //   i++;
-  // });
+  var scroll = currentScroll;
+  var i = 0;
+  $('.gerund').each(function () {
+    var pos = $(this).position();
+    var p = (currentScroll - pos.top);
+    if (p > -300 ) {
+      $(this).css("background-color", colors[i % colors.length]);
+      $(this).css("color", "#FFFFFF");
+    } 
+    if(p > -60 || p < -(window.innerHeight - 100)) {
+      $(this).css("background-color", "transparent");
+      $(this).css("color", "#000000");
+    }   
+    i++;
+  });
 });
