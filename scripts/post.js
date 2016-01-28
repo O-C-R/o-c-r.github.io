@@ -54,7 +54,7 @@ for (var i = 0; i < words.length; i++) {
   $('.posts-home .post').each(function () {
     this.outerHTML = this.outerHTML.split(words[i]).join('<span class="gerund">' + words[i] + '</span>');
     $(this).on('mouseover', function() {
-      $(this).css("background-color", '#ef4518');
+      $(this).css("background-color", '#ccc');
       $(this).css("color", "#FFFFFF");
     });
   });
@@ -71,8 +71,24 @@ $(window).resize(function() {
 });
     
 $(window).scroll(function () {
+  var currentScroll = $(this).scrollTop();
+  var i = 0;
+  $('.gerund').each(function () {
+    var pos = $(this).position();
+    var p = (currentScroll - pos.top);
+    if (p > -300 ) {
+      $(this).css("background-color", colors[i % colors.length]);
+      $(this).css("color", "#FFFFFF");
+    } 
+    if(p > -60 || p < -(window.innerHeight - 100)) {
+      $(this).css("background-color", "transparent");
+      $(this).css("color", "#000000");
+    }   
+    i++;
+  });
+
   if($(window).width() > 1280) {
-    var currentScroll = $(this).scrollTop();
+    
     var window_offset = $side.offset().top + $(window).scrollTop();
     console.log(window_offset);
 
@@ -101,19 +117,4 @@ $(window).scroll(function () {
     $side.css("position","relative");
   }
 
-  var scroll = currentScroll;
-  var i = 0;
-  $('.gerund').each(function () {
-    var pos = $(this).position();
-    var p = (currentScroll - pos.top);
-    if (p > -300 ) {
-      $(this).css("background-color", colors[i % colors.length]);
-      $(this).css("color", "#FFFFFF");
-    } 
-    if(p > -60 || p < -(window.innerHeight - 100)) {
-      $(this).css("background-color", "transparent");
-      $(this).css("color", "#000000");
-    }   
-    i++;
-  });
 });
