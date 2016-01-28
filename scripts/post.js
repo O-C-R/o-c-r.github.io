@@ -48,7 +48,7 @@ var previousScroll = 0;
 var words = ["exploring","breaking down", "explaining", "visualizing", "publishing", "performing", "mapping",
        "investigating", "empowering", "giving voice", "mapping", "staging", "augmenting", "showing",
        "remixing", "examining", "imagining","projecting","analyzing","designing"];
-var colors = ['#793AB1', '#C737AF', '#FF6752', '#FFDD45', '#A7F34D', '#36F669', '#04B4D5’];
+var colors = ['#793AB1', '#C737AF', '#FF6752', '#FFDD45', '#A7F34D', '#36F669', '#04B4D5'];
 
 for (var i = 0; i < words.length; i++) {
   $('.posts-home .post').each(function () {
