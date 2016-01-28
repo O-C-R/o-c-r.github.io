@@ -80,38 +80,17 @@ $(window).scroll(function () {
   $('.gerund').each(function (index) {
     var pos = $(this).position();
     var p = (currentScroll - pos.top);
-    console.log("P IS: " + p);
-    //$(this).stop( true, true );
+    //console.log("P IS: " + p);
     if (p >= -300) {
-      //console.log("p is greater than -300: " + p);
       
-      //todo
-      //css animation to have color turn to red, then back to black on scroll
-      //don't use colors array
-      //$(this).css("background-color", colors[i % colors.length]);
-      //$(this).css("opacity", "0.5");
-      //$(this).css("color", colors[i % colors.length]);
       if(!$(this).hasClass(".active")) {
-        $(this).dequeue().stop().animate({backgroundColor: 'rgb(0, 0, 0, 0.15)', color: '#A2230F'}, 800, function() {
-          $(this).animate({backgroundColor: 'rgb(0, 0, 0, 0.0)', color: '#333'}, 600, function() {
-            $(this).animate({backgroundColor: 'rgb(0, 0, 0, 0.15)', color: '#A2230F'}, 400, function() {
-              $(this).animate({backgroundColor: 'rgb(0, 0, 0, 0.0)', color: '#333'}, 800, function() {
-                $(this).css("background-color", "transparent");
-                console.log($('a:hover .gerund').eq(index));
-                $('a:hover .gerund').eq(index).css("color", "#fff");
-                $(this).removeClass(".active").dequeue();
-                console.log(index + " was active and is now inactive");
-              });
-            });
-          });
-        });
-        //console.log(index + " is active");
-      } else {
+        $(this).css({backgroundColor: colors[i % colors.length], color: '#fff'});
+        //console.log($('a:hover .gerund').eq(index));
         $('a:hover .gerund').eq(index).css("color", "#fff");
-        //console.log(index + " was not active and now is active");
-        $(this).addClass(".active");
-        //console.log("starting to animate");
-      }
+        //console.log(index + " was active and is now inactive");
+
+       } else {
+       }
 
     } else {
       //console.log("is Not Scrolling");
@@ -119,33 +98,31 @@ $(window).scroll(function () {
     }
 
     if(p > -60 || p < -(window.innerHeight - 100)) {
-
-      $(this).css("background-color", "transparent");
-      //$(this).css("color", "#000000");
+      $(this).css({backgroundColor: "transparent", color: "#000"});
       $('a:hover .gerund').eq(index).css("color", "#fff");
       $(this).removeClass(".active").dequeue();
     }   
     i++;
   });
 
-  if($(window).width() > 1280) {
+  if($(window).width() > 1280 && $side!=undefined) {
     
     var window_offset = $side.offset().top + $(window).scrollTop();
-    console.log(window_offset);
+    //console.log(window_offset);
 
     if (currentScroll > previousScroll){
 
-     if( window_offset >= 165 ) {
-        console.log('down');
-        console.log($side);
+     if( window_offset >= 165) {
+        // console.log('down');
+        // console.log($side);
         $side.css("position","fixed");
         $side.css("padding-top", "148px");
       }
     }
     else {
       if( window_offset <= 330 ) {
-        console.log('up');
-        console.log($side);
+        // console.log('up');
+        // console.log($side);
         $side.css("position","relative");
         $side.css("padding-top", "318px");        
       }
@@ -159,7 +136,7 @@ $(window).scroll(function () {
   clearTimeout( $.data( this, "scrollCheck" ) );
     $.data( this, "scrollCheck", setTimeout(function() {
       isScrolling = false;
-      console.log( "isScrolling is: " + isScrolling );
+      //console.log( "isScrolling is: " + isScrolling );
     }, 250) );
-    console.log( "isScrolling is: " + isScrolling );
+    //console.log( "isScrolling is: " + isScrolling );
 });
