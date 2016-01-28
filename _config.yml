@@ -9,6 +9,7 @@ date_format: "%b %-d, %Y"
 
 gems:
   - jemoji
+  - jekyll-paginate
 
 # Google services
 google_analytics:
