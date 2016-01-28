@@ -10,7 +10,7 @@
 * add webfaction as remote git repo `git remote add webfaction blprnt@blprnt.webfactional.com:/home/blprnt/git-repos/my-jekyll-blog.git`
 
 ### push
-* git push webfaction master (pwd InfiniteH4llway)
+* `git push webfaction master` (pwd InfiniteH4llway)
 * if you get error about running `jekyll` ssh to server `ssh blprnt@blprnt.webfactional.com` (same pwd) and run `~/git-repos/my-jekyll-blog.git/hooks/post-update`
 
 ### Old info from pixyll:
