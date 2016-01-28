@@ -47,7 +47,7 @@ var previousScroll = 0;
 
 var words = ["exploring","breaking down", "explaining", "visualizing", "publishing", "performing", "mapping",
        "investigating", "empowering", "giving voice", "mapping", "staging", "augmenting", "showing",
-       "remixing","imagining","projecting","analyzing","designing"];
+       "remixing", "examining", "imagining","projecting","analyzing","designing"];
 var colors = ["#FF9900", "#FF99FF", "#00FFFF"];
 
 for (var i = 0; i < words.length; i++) {

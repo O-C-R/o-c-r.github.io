@@ -137,20 +137,31 @@ a:active {
   border: 0;
   color: $link-hover-color;
   text-decoration: none;
-  background-color: $ocr-red; /*$bright-yellow;*/
+  background-color: #ccc; /*$bright-yellow;*/
   background-image: none;
   text-shadow: none;
 }
 
 footer {
-  background-color: white;
-  background: url("../images/texturered.png");
-  border-top: $footer-border-top;
-  color: $footer-color;
-  font-size: $footer-font-size;
-  font-weight: $footer-font-weight;
-  padding: $footer-padding;
-  text-align: center;
+    background-color: white;
+    background: url("../images/texturered.png");
+    border-top: $footer-border-top;
+    color: $footer-color;
+    font-size: $footer-font-size;
+    font-weight: $footer-font-weight;
+    padding: $footer-padding;
+    text-align: center;
+    position:fixed;
+    bottom:0;
+    width:100%;
+    z-index:0;
+}
+
+.site-wrap{
+    margin-bottom: 100px;
+    background-color: white;
+    padding-bottom: 100px;
+    z-index:1;
 }
 
 .date {
