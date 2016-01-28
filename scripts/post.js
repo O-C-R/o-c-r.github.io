@@ -49,6 +49,7 @@ var isScrolling = false;
 var isActive = false;
 var doHighlight = true;
 
+/*
 var words = ["exploring","breaking down", "explaining", "visualizing", "publishing", "performing", "mapping",
        "investigating", "empowering", "giving voice", "mapping", "staging", "augmenting", "showing",
        "remixing", "examining", "imagining","projecting","analyzing","designing"];
@@ -65,6 +66,7 @@ for (var i = 0; i < words.length; i++) {
     });
   });
 }
+*/
 
 $(window).resize(function() {
   if($(window).width() > 1280) {
@@ -81,6 +83,7 @@ $(window).scroll(function () {
   var currentScroll = $(this).scrollTop();
   var i = 0;
 
+  /*
   $('.gerund').each(function (index) {
     var pos = $(this).position();
     var p = (currentScroll - pos.top);
@@ -109,6 +112,7 @@ $(window).scroll(function () {
     }   
     i++;
   });
+  */
 
   if($(window).width() > 1280 && $side!=undefined) {
     

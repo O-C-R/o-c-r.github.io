@@ -141,14 +141,14 @@ a:active {
   border: 0;
   color: $link-hover-color;
   text-decoration: none;
-  background-color: #ccc; /*$bright-yellow;*/
+  background-color: $ocr-red;/*#cccccc;*/ /*$bright-yellow;*/
   background-image: none;
   text-shadow: none;
 }
 
 footer {
-    background-color: $light-gray;
-    /*background: url("../images/texturered.png");*/
+    /*background-color: $light-gray;*/
+    background: url("../images/texturered.png");
     border-top: $footer-border-top;
     color: $footer-color;
     font-size: $footer-font-size;
@@ -253,7 +253,7 @@ footer {
   animation-duration: 1s; 
   animation-timing-function: ease-out; 
   animation-delay: 0;
-  animation-iteration-count: 2;
+  animation-iteration-count: 1;
 }
 
 @keyframes highlight {
