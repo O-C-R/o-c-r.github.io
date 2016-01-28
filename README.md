@@ -11,6 +11,7 @@
 
 ### push
 * git push webfaction master (pwd InfiniteH4llway)
+* if you get error about running `jekyll` ssh to server `ssh blprnt@blprnt.webfactional.com` (same pwd) and run `~/git-repos/my-jekyll-blog.git/hooks/post-update`
 
 ### Old info from pixyll:
 
