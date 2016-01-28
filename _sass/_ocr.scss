@@ -131,6 +131,10 @@ a {
   transition: all 0.05s ease-in;  
 }
 
+a:hover .gerund {
+    color: $link-hover-color;
+}
+
 a:hover,
 a:focus,
 a:active {
@@ -155,6 +159,10 @@ footer {
     bottom:0;
     width:100%;
     z-index:0;
+}
+
+#footerText {
+   /* margin-left: -20%;*/
 }
 
 .site-wrap{
@@ -231,6 +239,30 @@ footer {
   margin: 0px 0px 0px 0px;
   font-size: 1.8rem;
 }
+
+/*.gerund {
+    color: black;
+    -webkit-transition: color 0.4s ease;
+    -moz-transition: color 0.4s ease;
+    -o-transition: color 0.4s ease;
+    transition: color 0.4s ease;
+}
+.gerund .color-pulse {
+  animation-name: pulse;
+  animation-duration: 1s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-iteration-count: 2;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    color: black;
+  }
+  50% {
+    color: red;
+  }
+}*/
 
 .PageNavigation {
     

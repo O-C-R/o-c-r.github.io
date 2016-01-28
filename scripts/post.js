@@ -44,6 +44,8 @@ $('.year').text(year);
 
 var $side = $('.contact-info.item:first');
 var previousScroll = 0;
+var isScrolling = false;
+var isActive = false;
 
 var words = ["exploring","breaking down", "explaining", "visualizing", "publishing", "performing", "mapping",
        "investigating", "empowering", "giving voice", "mapping", "staging", "augmenting", "showing",
@@ -71,18 +73,57 @@ $(window).resize(function() {
 });
     
 $(window).scroll(function () {
+  isScrolling = true;
   var currentScroll = $(this).scrollTop();
   var i = 0;
-  $('.gerund').each(function () {
+
+  $('.gerund').each(function (index) {
     var pos = $(this).position();
     var p = (currentScroll - pos.top);
-    if (p > -300 ) {
-      $(this).css("background-color", colors[i % colors.length]);
-      $(this).css("color", "#FFFFFF");
-    } 
+    console.log("P IS: " + p);
+    //$(this).stop( true, true );
+    if (p >= -300) {
+      //console.log("p is greater than -300: " + p);
+      
+      //todo
+      //css animation to have color turn to red, then back to black on scroll
+      //don't use colors array
+      //$(this).css("background-color", colors[i % colors.length]);
+      //$(this).css("opacity", "0.5");
+      //$(this).css("color", colors[i % colors.length]);
+      if(!$(this).hasClass(".active")) {
+        $(this).dequeue().stop().animate({backgroundColor: 'rgb(0, 0, 0, 0.15)', color: '#A2230F'}, 800, function() {
+          $(this).animate({backgroundColor: 'rgb(0, 0, 0, 0.0)', color: '#333'}, 600, function() {
+            $(this).animate({backgroundColor: 'rgb(0, 0, 0, 0.15)', color: '#A2230F'}, 400, function() {
+              $(this).animate({backgroundColor: 'rgb(0, 0, 0, 0.0)', color: '#333'}, 800, function() {
+                $(this).css("background-color", "transparent");
+                console.log($('a:hover .gerund').eq(index));
+                $('a:hover .gerund').eq(index).css("color", "#fff");
+                $(this).removeClass(".active").dequeue();
+                console.log(index + " was active and is now inactive");
+              });
+            });
+          });
+        });
+        //console.log(index + " is active");
+      } else {
+        $('a:hover .gerund').eq(index).css("color", "#fff");
+        //console.log(index + " was not active and now is active");
+        $(this).addClass(".active");
+        //console.log("starting to animate");
+      }
+
+    } else {
+      //console.log("is Not Scrolling");
+      $('a:hover .gerund').eq(index).css("color", "#fff");
+    }
+
     if(p > -60 || p < -(window.innerHeight - 100)) {
+
       $(this).css("background-color", "transparent");
-      $(this).css("color", "#000000");
+      //$(this).css("color", "#000000");
+      $('a:hover .gerund').eq(index).css("color", "#fff");
+      $(this).removeClass(".active").dequeue();
     }   
     i++;
   });
@@ -93,28 +134,32 @@ $(window).scroll(function () {
     console.log(window_offset);
 
     if (currentScroll > previousScroll){
-       
 
-       if( window_offset >= 165 ) {
-          console.log('down');
-          console.log($side);
-          $side.css("position","fixed");
-          $side.css("padding-top", "148px");
-       }
+     if( window_offset >= 165 ) {
+        console.log('down');
+        console.log($side);
+        $side.css("position","fixed");
+        $side.css("padding-top", "148px");
+      }
     }
     else {
-      
-        if( window_offset <= 330 ) {
-          console.log('up');
-          console.log($side);
-          $side.css("position","relative");
-          $side.css("padding-top", "318px");        
-        }
+      if( window_offset <= 330 ) {
+        console.log('up');
+        console.log($side);
+        $side.css("position","relative");
+        $side.css("padding-top", "318px");        
+      }
     }
     previousScroll = currentScroll;
   } else {
     $side.css("padding-top", "10px");
     $side.css("position","relative");
   }
-
+  
+  clearTimeout( $.data( this, "scrollCheck" ) );
+    $.data( this, "scrollCheck", setTimeout(function() {
+      isScrolling = false;
+      console.log( "isScrolling is: " + isScrolling );
+    }, 250) );
+    console.log( "isScrolling is: " + isScrolling );
 });
