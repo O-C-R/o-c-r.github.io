@@ -192,6 +192,7 @@ footer {
     margin: 0 auto;
     /*float: right;*/
     /*width: 86%;*/
+    max-width: 800px;
     padding-right: 30%;
     margin-left: 200px;
     padding-top: 125px;
@@ -240,22 +241,22 @@ footer {
   font-size: 1.8rem;
 }
 
-/*.gerund {
+/*.active {
     color: black;
     -webkit-transition: color 0.4s ease;
     -moz-transition: color 0.4s ease;
     -o-transition: color 0.4s ease;
     transition: color 0.4s ease;
 }
-.gerund .color-pulse {
-  animation-name: pulse;
+.active .color-pulse {
+  animation-name: highlight;
   animation-duration: 1s; 
   animation-timing-function: ease-out; 
   animation-delay: 0;
   animation-iteration-count: 2;
 }
 
-@keyframes pulse {
+@keyframes highlight {
   0%, 100% {
     color: black;
   }

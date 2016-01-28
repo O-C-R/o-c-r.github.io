@@ -43,14 +43,18 @@ $('.month').text(month);
 $('.year').text(year);
 
 var $side = $('.contact-info.item:first');
+console.log($side);
 var previousScroll = 0;
 var isScrolling = false;
 var isActive = false;
+var doHighlight = true;
 
 var words = ["exploring","breaking down", "explaining", "visualizing", "publishing", "performing", "mapping",
        "investigating", "empowering", "giving voice", "mapping", "staging", "augmenting", "showing",
        "remixing", "examining", "imagining","projecting","analyzing","designing"];
-var colors = ['#793AB1', '#C737AF', '#FF6752', '#FFDD45', '#A7F34D', '#36F669', '#04B4D5'];
+//var colors = ['#793AB1', '#C737AF', '#FF6752', '#FFDD45', '#A7F34D', '#36F669', '#04B4D5'];
+var colors = ['rgba(121,58,177,1)', 'rgba(199, 55, 175,1)', 'rgba(255, 103, 82, 1)', 'rgba(255, 221, 69, 1)', 'rgba(167, 243,77,1)', 'rgba(54, 246, 105, 1)', 'rgba(4,180, 213, 1)'];
+var colorsOff = ['rgba(121,58,177,0)', 'rgba(199, 55, 175,0)', 'rgba(255, 103, 82, 0)', 'rgba(255, 221, 69, 0)', 'rgba(167, 243,77,0)', 'rgba(54, 246, 105, 0)', 'rgba(4,180, 213, 0)'];
 
 for (var i = 0; i < words.length; i++) {
   $('.posts-home .post').each(function () {
@@ -80,27 +84,28 @@ $(window).scroll(function () {
   $('.gerund').each(function (index) {
     var pos = $(this).position();
     var p = (currentScroll - pos.top);
+    var gerund = $(this);
     //console.log("P IS: " + p);
     if (p >= -300) {
-      
+      //active class is added as condition of animating
+      //dequeue().stop() is secret sauce to get animation to only fire once
       if(!$(this).hasClass(".active")) {
-        $(this).css({backgroundColor: colors[i % colors.length], color: '#fff'});
-        //console.log($('a:hover .gerund').eq(index));
-        $('a:hover .gerund').eq(index).css("color", "#fff");
-        //console.log(index + " was active and is now inactive");
-
-       } else {
-       }
-
+        $(this).dequeue().stop().animate({ color: "#fff", backgroundColor: colors[i % colors.length]}, 500, function() {
+          $(this).addClass(".active").dequeue();
+        });
+      }
     } else {
       //console.log("is Not Scrolling");
-      $('a:hover .gerund').eq(index).css("color", "#fff");
+      //$('a:hover .gerund').eq(index).css("color", "#fff");
     }
 
     if(p > -60 || p < -(window.innerHeight - 100)) {
-      $(this).css({backgroundColor: "transparent", color: "#000"});
-      $('a:hover .gerund').eq(index).css("color", "#fff");
-      $(this).removeClass(".active").dequeue();
+      
+      //$('a:hover .gerund').eq(index).css("color", "#fff");
+
+      $(this).animate({ color: "#000", backgroundColor: colorsOff[i % colorsOff.length]}, 500, function() {
+          $(this).removeClass(".active").dequeue();
+        });
     }   
     i++;
   });
