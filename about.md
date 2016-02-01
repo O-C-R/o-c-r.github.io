@@ -8,7 +8,7 @@ The Office for Creative Research was founded in 2013 by Mark Hansen, Ben Rubin a
 
 The Office for Creative Research is currently Jer Thorp, Ian Ardouin-Fumat, Noa Younse, Zarah Cabañas, Genevieve Hoffman, Kate Rath, and Sepand Ansari.
 
-Esteemed emeriti include <a href="http://piim.newschool.edu/" target="_blank">Ben Rubin</a>, <a href="http://www.journalism.columbia.edu/profile/428-mark-hansen/10" target="_blank">Mark Hansen</a> and Ellery Royston.
+<a href="http://www.journalism.columbia.edu/profile/428-mark-hansen/10" target="_blank">Mark Hansen</a> is the Director of The Brown Institute at Coliumbia University, and <a href="http://piim.newschool.edu/" target="_blank">Ben Rubin</a> is the Director of Parsons’ Institute for Information Mapping.
 
 #### Jer Thorp, Co-Founder and Principal<br>
 Jer Thorp is an artist and educator from Vancouver, Canada, currently living in New York. Coming from a background in genetics, his digital art practice explores the many-folded boundaries between science and art. Recently, his work has been featured by The Guardian, Scientific American, The New Yorker, Popular Science, and the CBC. Thorp’s award-winning software-based work has been exhibited in Europe, Asia, North America, South America, and Australia and all over the web, including at the Museum of Modern Art in Manhattan.

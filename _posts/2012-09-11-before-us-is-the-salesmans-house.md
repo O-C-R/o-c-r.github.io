@@ -6,6 +6,7 @@ summary:    examining eBay as a cultural artifact
 categories: public-space-interventions
 dateFormat: Fall 2012
 for:        eBay
+collaborators: Mark Hansen
 slideshow:
     - image_path: /images/beforeUsIsTheSalesmansHouse_5.jpg
     - image_path: /images/beforeUsIsTheSalesmansHouse_4.jpg

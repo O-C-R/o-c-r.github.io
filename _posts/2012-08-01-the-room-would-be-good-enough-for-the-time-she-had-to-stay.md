@@ -6,6 +6,7 @@ summary:    imagining the inner lives of literary hotel guests
 categories: data-narrative
 dateFormat: Summer 2012
 for:        Vancouver Art Gallery
+collaborators: Mark Hansen
 slideshow:
     - image_path: /images/theRoomWouldBeEnough_1.jpg
 press:

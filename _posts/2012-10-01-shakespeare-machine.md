@@ -5,7 +5,7 @@ date:       2012-10-01 12:31:19
 summary:    remixing the works of Shakespeare
 categories: public-space-interventions
 dateFormat: Fall 2012
-collaborators: Ben Rubin
+collaborators: Ben Rubin, Mark Hansen
 role:       custom software design
 for:        The Public Theater
 slideshow:

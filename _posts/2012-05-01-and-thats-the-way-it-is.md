@@ -5,7 +5,7 @@ date:       2012-05-01 12:31:19
 summary:    projecting the nightly news onto a five story building in Texas
 categories: public-space-interventions
 dateFormat: Spring 2012
-collaborators: Ben Rubin
+collaborators: Ben Rubin, Mark Hansen
 role:       custom software design
 for:        University of Texas CMA 
 slideshow:

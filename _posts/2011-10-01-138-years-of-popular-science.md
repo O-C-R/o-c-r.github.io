@@ -6,6 +6,7 @@ summary:    exploring the history of popular science
 categories: data-narrative
 dateFormat: Fall 2011
 for:        Popular Science
+collaborators: Mark Hansen
 slideshow:
     - image_path: /images/138yearsPopSci_1.jpg
     - image_path: /images/138yearsPopSci_2.jpg

@@ -5,7 +5,7 @@ date:       2013-09-01 12:31:19
 summary:    staging a live data expedition through one of Africa's most biodiverse wilderness areas
 categories: conservation-and-science
 dateFormat: Fall 2013, Summer 2014, Summer 2015, Spring 2016
-collaborators: Dr. Steve Boyes, The Wild Bird Trust
+collaborators: Dr. Steve Boyes, The Wild Bird Trust, Brian House, Shah Selbe
 for:        National Geographic
 slideshow:
     - image_path: /images/okavango_2.jpg
