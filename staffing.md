@@ -20,7 +20,7 @@ The Office for Creative Research is hiring talented (and multi-talented!) design
 
 We are a hybrid research group, working at the intersection of technology, culture and education. We build user-focused tools, public space interventions and forward-looking prototypes in the service of understanding and humanizing complex data systems.
 
-Currently, we’re helping to protect elephant populations in Africa, creating a space for St. Louis residents to examine the lived geographies of their city, engaging citizen scientists to connect joint pain with weather conditions, and examining the reach of one of the world's largest social networks.
+Currently, we're helping to protect elephant populations in Africa, creating a space for St. Louis residents to examine the lived geographies of their city, engaging citizen scientists to connect joint pain with weather conditions, and examining the reach of one of the world's largest social networks.
 
 Applicants should have proven experience designing, developing and deploying data-focused projects. We are looking for people who have 3+ years of real-world experience. We use Processing, OpenFrameworks, Python, MongoDB, node.js, three.js, Sketch, Grasshopper, library cards, pencils, paper, modeling clay and coloured markers, but applicants are encouraged to bring their own toolsets and approaches.
 
