@@ -1,8 +1,3 @@
----
-layout: page
-title: Work with us
-permalink: /staffing/
----
 
 
 ### Internships
