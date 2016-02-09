@@ -26,6 +26,6 @@ Applicants should have proven experience designing, developing and deploying dat
 
 We take diversity seriously, so applications are particularly welcome from women, PoC, and other groups under-represented in tech.
 
-The Office for Creative Research is dedicated to a transparent, open working environment. All OCR staff earn a flat salary – currently $75,000/year – as well as an annual bonus. We support medical, dental, and vision coverage for all full-time employees.
+The Office for Creative Research is dedicated to a transparent, open working environment. All OCR staff earn a flat salary – currently $85,000/year – as well as an annual bonus. We support medical, dental, and vision coverage for all full-time employees.
 
 Interested applicants can send a cover letter and a resume to [jobs@ocr.nyc](mailto:jobs@ocr.nyc)
