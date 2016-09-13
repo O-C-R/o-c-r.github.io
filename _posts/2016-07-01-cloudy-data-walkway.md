@@ -2,7 +2,7 @@
 layout:     post
 title:      Cloudy with a Chance of Pain Immersive Data Walkway
 date:       2016-06-15 12:31:19
-summary:    physicalizing data and creating new connections to the data
+summary:    creating installations from weather data
 dateFormat: Summer 2016
 categories: public-space-interventions
 for:        Manchester, United Kingdom
