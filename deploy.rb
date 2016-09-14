@@ -1,6 +1,6 @@
 require 'aws-sdk'
 
-$s3 = Aws::S3::Client.new
+$s3 = Aws::S3::Client.new(region: 'us-east-1')
 $object_keys = {}
 
 def put_object(filename, content_type)
@@ -57,8 +57,8 @@ $s3.list_objects_v2(bucket: 'ocr.nyc').contents.each do |object|
 	unless $object_keys[object.key]
 		puts "deleting #{object.key}"
 		$s3.delete_object({
-		  bucket: 'ocr.nyc',
-		  key: object.key
+			bucket: 'ocr.nyc',
+			key: object.key
 		})
 	end
 end
