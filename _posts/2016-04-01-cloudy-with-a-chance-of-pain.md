@@ -8,12 +8,9 @@ categories: user-focused-tools
 for:        Will Dixon
 collaborators: Dr. Will Dixon
 slideshow:
-    - image_path: /images/predict_2.jpg
-    - image_path: /images/predict_1.jpg
-    - image_path: /images/predict_3.jpg
-    - image_path: /images/predict_4.jpg
-    - image_path: /images/predict_5.jpg
-    - image_path: /images/predict_6.jpg
+    - image_path: /images/cloudy_00.jpg
+    - image_path: /images/cloudy_01.jpg
+
 ---
 
 Cloudy with a Chance of Pain is part of a research study led by rheumatologist Dr. Will Dixon of the University of Manchester, with a goal of determining a possible causative link between weather and arthritis symptoms.
