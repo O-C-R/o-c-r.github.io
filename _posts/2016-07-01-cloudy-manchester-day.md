@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Cloudy with a Chance of Pain Immersive Data Walkway
+title:      Weathering Walkways
 date:       2016-06-15 12:31:19
 summary:    creating public art installations visualizing pain data
 dateFormat: Summer 2016

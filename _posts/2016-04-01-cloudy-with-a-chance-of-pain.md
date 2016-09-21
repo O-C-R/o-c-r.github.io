@@ -10,6 +10,11 @@ collaborators: Dr. Will Dixon
 slideshow:
     - image_path: /images/cloudy_00.jpg
     - image_path: /images/cloudy_01.jpg
+press:
+    - link: <a href="http://www.cnn.com/2016/09/19/health/weather-pain-link/" target="_blank">CNN</a>
+    - link: <a href="http://www.dailymail.co.uk/health/article-3777731/Cloudy-chance-pain-Wet-weather-lack-sunshine-DOES-make-chronic-pain-worse.html" target="_blank">Daily Mail</a>
+    - link: <a href="http://www.independent.co.uk/news/science/chronic-pain-arthritis-pressure-sunshine-sunlight-rain-makes-worse-manchester-university-cloudy-with-a7229151.html" target="_blank">Independent</a>
+    - link: <a href="https://cloudywithachanceofpain.com/blog/view-the-results-of-our-preliminary-analysis-in" target="_blank">University of Manchester</a>
 
 ---
 
