@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Work with us
-permalink: /staffing/10182016/
+permalink: /staffing/
 ---
 
 
