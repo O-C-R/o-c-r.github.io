@@ -1,6 +1,6 @@
 require 'aws-sdk'
 
-$s3 = Aws::S3::Client.new(region: 'us-east-1')
+$s3 = Aws::S3::Client.new(region: 'us-east-1', profile: 'ocr')
 $object_keys = {}
 
 def put_object(filename, content_type)
