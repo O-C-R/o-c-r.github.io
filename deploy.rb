@@ -12,7 +12,20 @@ def put_object(filename, content_type)
 		md5 = Digest::MD5.base64digest(file.read)
 	end
 
-	puts "#{md5} #{filename}"
+	begin
+		puts "#{md5} /#{object_key}"
+		resp = $s3.head_object({
+			bucket: "ocr.nyc",
+			key: object_key,
+		})	
+
+		if resp.metadata['md5'] == md5
+			return
+		end
+	rescue Aws::S3::Errors::NotFound
+	end
+
+	puts "uploading #{filename}"
 	resp = $s3.put_object({
 		acl: 'private',
 	  body: File.open(filename),
@@ -22,6 +35,9 @@ def put_object(filename, content_type)
 	  content_type: content_type,
 	  key: object_key,
 	  storage_class: 'REDUCED_REDUNDANCY',
+	  metadata: {
+	    'md5' => md5,
+	  },
 	})
 end
 
