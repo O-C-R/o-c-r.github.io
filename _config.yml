@@ -67,3 +67,5 @@ permalink:    pretty
 paginate:     30
 sass:
   compressed: true
+kramdown:
+  input: GFM
