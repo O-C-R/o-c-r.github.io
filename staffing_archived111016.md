@@ -1,4 +1,3 @@
-
 ***
 
 We are a hybrid research group, working at the intersection of technology, culture and education. We build user-focused tools, public space interventions and forward-looking prototypes in the service of understanding and humanizing complex data systems.
