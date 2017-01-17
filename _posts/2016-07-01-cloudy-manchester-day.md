@@ -9,7 +9,7 @@ for:        Manchester, United Kingdom
 collaborators: University of Manchester
 slideshow:
     - image_path: /images/manchesterday_00.jpg
-      credits: Photo by Noa Younse.
+      credits: Photo by Sebastian Matthes.
     - image_path: /images/manchesterday_01.jpg
       credits: Photo by Noa Younse.
     - image_path: /images/manchesterday_02.jpg
@@ -21,7 +21,7 @@ slideshow:
     - image_path: /images/manchesterday_05.jpg
       credits: Photo by Sebastian Matthes.
     - image_path: /images/manchesterday_06.jpg
-      credits: Photo by Sebastian Matthes.
+      credits: Photo by Noa Younse.
     - image_path: /images/manchesterday_07.jpg
       credits: Photo by Noa Younse.
     - image_path: /images/manchesterday_09.jpg
