@@ -4,7 +4,7 @@ $s3 = Aws::S3::Client.new(region: 'us-east-1', profile: 'ocr')
 $object_keys = {}
 
 def put_object(filename, content_type)
-	object_key = filename.gsub(/^_site\//, '').gsub(/\/index.html$/, '/')
+	object_key = filename.gsub(/^_site\//, '')
 	$object_keys[object_key] = true
 
 	md5 = ''
@@ -29,8 +29,7 @@ def put_object(filename, content_type)
 	resp = $s3.put_object({
 		acl: 'private',
 	  body: File.open(filename),
-	  bucket: "ocr.nyc",
-	  cache_control: 'max-age: 300',
+	  bucket: 'ocr.nyc',
 	  content_md5: md5,
 	  content_type: content_type,
 	  key: object_key,
@@ -70,11 +69,11 @@ Dir.glob('_site/**/*.xml') do |filename|
 end
 
 $s3.list_objects_v2(bucket: 'ocr.nyc').contents.each do |object|
-	unless $object_keys[object.key]
+	unless $object_keys[object.key] || object.key.start_with?('unequalfutures/')
 		puts "deleting #{object.key}"
-		$s3.delete_object({
-			bucket: 'ocr.nyc',
-			key: object.key
-		})
+		# $s3.delete_object({
+		# 	bucket: 'ocr.nyc',
+		# 	key: object.key
+		# })
 	end
 end
