@@ -16,9 +16,8 @@ permalink: /staffing/
 **Date:** Feb 7, 2017
 
 The Office for Creative research is looking for a multi-talented developer to come work with us build a community mapping platform. If you're into robotics, mapping, and community activism, read on!
-In collaboration with the Center for Creative Research, OCR is building the St. Louis Maproom, a community space for exploring and creating original, interpretive maps of the city that reflect the personal stories and lived experiences of its residents. As part of that experience, robots will be drawing outline maps of participant-selected parts of St. Louis.
+In collaboration with the Center for Creative Research, OCR is building the [St. Louis Maproom](http://www.cocastl.org/event/st-louis-map-room/), a community space for exploring and creating original, interpretive maps of the city that reflect the personal stories and lived experiences of its residents. As part of that experience, robots will be drawing outline maps of participant-selected parts of St. Louis.
 We're looking for someone to help us build those mapping robots. 
-Project Link: http://www.cocastl.org/event/st-louis-map-room/ 
 Give us a shout if you have experience with:
 - Robotics, especially wheeled robots
 - OpenCV, especially positioning systems
