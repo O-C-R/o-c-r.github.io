@@ -23,7 +23,7 @@ Give us a shout if you have experience with:
 - OpenCV, especially positioning systems
 - Bonus: drawing machines or map-making tools
 
-The timeline is short (the space opens on March 3rd!), so let us know if you're available in the very near future and are interested in helping out. The position is paid, and may continue after the opening of the exhibition. 
+- The timeline is short (the space opens on March 3rd!), so let us know if you're available in the very near future and are interested in helping out. The position is paid, and may continue after the opening of the exhibition. 
 
 Please send a resume and cover letter to [jobs@ocr.nyc](mailto:jobs@ocr.nyc)
 
