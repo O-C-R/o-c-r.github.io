@@ -1,0 +1,12 @@
+pipeline:
+  build:
+    image: ruby:2.4.0
+    commands:
+      - bundle install
+      - make
+  deploy:
+    image: ruby:2.4.0
+    commands:
+      - make deploy
+    when:
+      branch: master
