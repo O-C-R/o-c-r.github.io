@@ -6,8 +6,6 @@ permalink: /about/
 
 The Office for Creative Research was founded in 2013 by Mark Hansen, Ben Rubin and Jer Thorp. Drawing on previous collaborations like <a href="http://www.nytimes.com/video/arts/1194817116105/moveable-type.html" target="_blank">Moveable Type</a> and <a href="http://nytlabs.com/projects/cascade.html" target="_blank">Cascade</a>, the three co-founders decided to take the themes present in their art and data practices into a larger collaboration and company. Together, they pushed the limits of generative performance with pieces like <a href="{{ site.baseurl }}/performance/2013/09/01/arguendo/" target="_blank">Arguendo</a> and <a href="{{ site.baseurl }}/public/space/interventions/2015/03/30/a-sort-of-joy/" target="_blank">A Sort of Joy</a>, and built a company that approaches data novelly and ethically.
 
-The Office for Creative Research is currently Jer Thorp, Ian Ardouin-Fumat, Noa Younse, Zarah Cabañas, Genevieve Hoffman, Kate Rath, A'yen Tran, Chris Anderson, Jane Friedhoff and Eric Buth.
-
 <a href="http://www.journalism.columbia.edu/profile/428-mark-hansen/10" target="_blank">Mark Hansen</a> is the Director of The Brown Institute at Coliumbia University, and <a href="http://piim.newschool.edu/" target="_blank">Ben Rubin</a> is the Director of Parsons’ Institute for Information Mapping.
 
 #### Jer Thorp, Co-Founder and Principal<br>
