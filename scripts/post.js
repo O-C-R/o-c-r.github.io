@@ -36,11 +36,12 @@ function nth(d) {
 } 
 
 $('.greeting').text(greetings[greetingIndex]);
-
+/*
 $('.weekday').text(days[weekday]);
 $('.date-ordinal').text(dateNum+nth(dateNum));
 $('.month').text(month);
 $('.year').text(year);
+*/
 
 var $side = $('.contact-info.item:first');
 console.log($side);
