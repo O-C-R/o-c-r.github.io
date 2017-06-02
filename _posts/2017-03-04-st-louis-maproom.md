@@ -8,9 +8,13 @@ categories: public-space-interventions
 for:        Center of Creative Arts
 slideshow:
     - image_path: /images/maproom_01.jpg
+      credits: Photo courtesy of COCA
     - image_path: /images/maproom_02.jpg
+      credits: Photo courtesy of COCA
     - image_path: /images/maproom_03.jpg
+      credits: Photo courtesy of COCA
     - image_path: /images/maproom_04.jpg
+      credits: Photo courtesy of COCA
 press:
     - link: <a href="https://medium.com/@blprnt/making-mapping-more-human-77a96e92ed49" target="_blank">Making Mapping More Human</a>
     - link: <a href="http://www.southcountytimes.com/Articles-The-Arts-c-2017-04-18-200859.114137-sub-Harlem-Renaissance-Contemporary-Response-At-COCA.html" target="_blank">South County Times</a>
